@@ -1,0 +1,97 @@
+.container {
+  height: 100%;
+}
+.imgWrapper {
+  background-image: url(../images/flowers.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 18.2rem 7.2rem;
+}
+.header {
+  max-width: 48.2rem;
+}
+.txtWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: stretch;
+  padding: 4.8rem;
+}
+.txtContent {
+  width: 100%;
+  max-width: 56.8rem;
+}
+.signup:first-of-type {
+  align-self: flex-end;
+  /* margin: 4.8rem; */
+}
+.txtContent {
+  margin-top: 5.5rem;
+  margin-bottom: 14.2rem;
+}
+.btnsWrapper {
+  padding: 4.8rem 0;
+  border-bottom: 2px solid rgb(102, 102, 102, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+.or {
+  background-color: white;
+  padding: 0 3.2rem;
+  margin: -1.3rem auto 0;
+  width: fit-content;
+  font-family: Avenir, sans-serif;
+  font-size: 1.8rem;
+  line-height: 2.459rem;
+}
+.form {
+  margin-top: 4.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+.emailWrapper,
+.passwordWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+label {
+  color: var(--color-gray);
+}
+input {
+  border-radius: 1.2rem;
+  border: 1px solid rgba(102, 102, 102, 0.35);
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  padding: 1.6rem;
+}
+.passwordWrapper label {
+  display: flex;
+  justify-content: space-between;
+}
+.hideBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: rgba(102, 102, 102, 0.8);
+}
+.hide {
+  display: none;
+}
+.hideIcon {
+  margin-inline-start: 3px;
+}
+.forgetPassword {
+  color: var(--color-black);
+  width: fit-content;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  align-self: flex-end;
+}

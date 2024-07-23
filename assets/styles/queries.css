@@ -1,0 +1,50 @@
+@media (min-width: 125em) {
+  .header {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+  .container {
+    height: auto;
+  }
+  .description {
+    margin-bottom: 0rem;
+  }
+  .imgWrapper {
+    padding: 13rem 7.2rem 7.2rem;
+  }
+  .header {
+    max-width: 62rem;
+  }
+  .txtContent {
+    margin-top: 5.5rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .imgWrapper {
+    padding: 7.2rem 4rem 4rem;
+  }
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .description {
+    font-size: 2rem;
+    line-height: 2.6rem;
+  }
+}
